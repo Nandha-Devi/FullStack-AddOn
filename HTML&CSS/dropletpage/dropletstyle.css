@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+}
+h1,ul,li{
+    display: inline-block;
+   
+   
+}
+ul{
+    margin-left:60%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+    
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.Searchbar{
+    padding: 50px;
+    text-align: center;
+}
+img{
+    height: 220px;
+}
+.box{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display:inline-block;
+    width: 220px;
+}
+.products{
+    text-align: center;
+    grid-template-columns: 1fr 2fr;
+    
+}
+@media screen and(max-width:500px) {
+    .products{
+        grid-template-columns: 1fr;
+    }
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.About{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact{
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 40px; 
+} 

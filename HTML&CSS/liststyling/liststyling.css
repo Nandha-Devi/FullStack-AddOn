@@ -1,0 +1,14 @@
+ul{
+    list-style-type:armenian;
+    list-style-image:url(".");
+  
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-image:linear-gradient( rgba(49, 134, 56, 0.596), rgb(241, 238, 238), lightblue);
+    border-style:ridge;
+    border-color:azure;
+    animation-name: ball;
+}

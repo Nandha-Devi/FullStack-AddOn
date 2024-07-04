@@ -1,0 +1,117 @@
+body{
+    background: rgba(84, 192, 83, 1.0);
+    background: linear-gradient(135deg,rgba(84, 192, 83, 1.0), rgba(92, 87, 120, 1.0));
+    height:200vh;
+
+}
+i{
+    font-size: x-large;
+}
+.companyname{
+    
+    font-family: "Cinzel", serif;
+    font-size:x-large;
+    font-variant: initial;
+
+}
+li{
+    list-style-type:none;
+    padding: 0px 10px;
+    font-family:"Cinzel", serif ;
+    font-size: x-large;
+    border-bottom: 5px  black;
+    
+   
+}
+a{
+    text-decoration-line:none;
+    font-size: medium;
+    font-weight:bolder ;
+    font-family:"Cinzel", serif  ;
+    color:black ;
+    
+}
+ul{
+    display: flex;
+    margin: auto;
+    margin-left: 4%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+  
+
+   
+}
+li:hover
+{
+    border-bottom: 2px solid black;
+    box-shadow: 5px 5px 5px;
+}
+li:active{
+    background-color: rgb(181, 181, 189);
+   
+}
+:target{
+    background-color: rgb(117, 115, 112);
+    color:black;
+    padding: 10px;
+}
+img{
+    height:300px ;
+    width:400px ;
+    object-fit: cover;
+    object-position:right ;
+    border-radius:50px;
+    float:right;
+ 
+
+  
+}
+main{
+
+    transition-duration: 10s;
+    justify-content:space-between;
+    
+
+}
+.cloud{
+    position:absolute;
+    left:30px;
+   bottom: 0px;
+    animation-name: cloud;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes cloud{
+    from{
+        left:30px;
+        bottom: 0px;
+    }
+    to{
+       transform:translate(100vh,0vw) ;
+    }
+}
+h4{
+    background-color: transparent;
+   
+}
+.search{
+border: none;
+width: fit-content;
+background-color:white;
+border-radius: 20px;
+}
+.text{
+   border-radius: 50px;
+   border-color:black;
+   border: none;
+   
+ 
+}
+.button{
+    border-radius:20px;
+}
